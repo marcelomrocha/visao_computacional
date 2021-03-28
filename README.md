@@ -1,2 +1,3 @@
 # Visão Computacional
-Estudo sobre visão computacional.
+
+Estudo sobre Visão Computacional.
