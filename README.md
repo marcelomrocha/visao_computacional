@@ -1,2 +1,2 @@
-# visao_computacional
-Estudo sobre visão computacional
+# Visão Computacional
+Estudo sobre visão computacional.
