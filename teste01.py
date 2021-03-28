@@ -7,7 +7,7 @@ print(cv2.__version__)
 img = cv2.imread("celo_cavaco.jpg")
 
 #Resizing image to small size
-img = cv2.resize(img,(420,300))
+#img = cv2.resize(img,(420,300))
 
 # cria uma janela
 cv2.namedWindow("Janela da Imagem", cv2.WINDOW_NORMAL)
@@ -18,7 +18,7 @@ cv2.imshow("Janela da Imagem",img)
 cv2.resizeWindow('Janela da Imagem', 400,400)
 
 #applying algorithm to blur the image
-img = cv2.blur(img, ksize = (5, 5))
+img = cv2.blur(img, ksize = (10, 10))
 
 # cria uma janela
 cv2.namedWindow("Imagem com blur", cv2.WINDOW_NORMAL)
